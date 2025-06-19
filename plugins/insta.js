@@ -84,7 +84,7 @@ let handler = async (m, { conn, args }) => {
     }
 };
 
-handler.help = ['insta'];
+handler.help = ['insta|انستا'];
 handler.tags = ['downloader'];
 handler.command = /^insta(dl)?$/i;
 
